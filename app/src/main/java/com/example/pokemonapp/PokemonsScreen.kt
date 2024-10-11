@@ -94,8 +94,6 @@ fun PokemonItem(
             text = id + ". " + pokemon.name.first().uppercase() + pokemon.name.substring(1),
             color = Color.Black,
             style = TextStyle(fontWeight = FontWeight.Bold, fontSize = 12.sp),
-            modifier = Modifier
-                .padding(top = 4.dp)
         )
     }
 }
