@@ -20,6 +20,6 @@ data class Pokemon(
 //    val types : Map<Int, Type>
 //)
 
-data class Pokemons (
+data class PokemonsResponse (
     val pokemons : List<Pokemon>
 )
